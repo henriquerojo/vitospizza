@@ -32,6 +32,31 @@
 }
 /* BANNER UM */
 
+/* PRINCIPAL */
+.alinhamento_delivery_e_contato{
+    width: 100%;
+    background-color: yellow;
+}
+
+#delivery_home{
+    background-color: black;
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+/*#contato_home{
+    background-color: aqua;
+    width: 600px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 10px;
+    
+
+}*/
+/* PRINCIPAL */
+
 /* BANNER DOIS */
 
     .margem_banner_dois{
