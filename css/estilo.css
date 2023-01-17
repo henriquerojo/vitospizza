@@ -32,12 +32,6 @@
 }
 /* BANNER UM */
 
-
-
-
-
-
-
 /* BANNER DOIS */
 
     .margem_banner_dois{
@@ -51,3 +45,21 @@
         display: block;
     }
 /* BANNER DOIS */
+
+
+/* FOOTER */
+    .margem_linha_footer{
+        margin-top: 5px;
+    }
+
+    .margem_footer{
+        margin-top: 10px;
+    }
+
+    .texto_footer{
+        text-align: center;
+        font-weight: 100;
+        font-size: 12pt;
+    }
+
+/* FOOTER */
