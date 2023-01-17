@@ -1,15 +1,25 @@
+/* FONTE */
+a {
+    color: #f3b735;
+    text-decoration: none;
+    font-weight: bold;
+    
+   }
+/* FONTE */
+
 /* BODY */
 body{
-    background-color:slategrey;
+    background-color:rgb(163, 138, 92);
 }
 /* BODY */
 
 /* HEADER */
 
 .header{
-    background-color: black;
-    padding: 0%;
+    background-color: rgb(51, 45, 33);
+    padding: 0px;
     width: 100%;
+    text-align: center;
 }
 
 .logo_menu{
@@ -40,30 +50,55 @@ body{
 
 /* PRINCIPAL */
 .alinhamento_delivery_e_contato{
-    width: 98,7%;
+    width: 90%;
     height: 500px;
     background-color: yellow;
     margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
 }
 
 #delivery_home{
-    background-color: black;
+    background-color: lightgrey;
     width: 50%;
     height: 100%;
     margin: 0 auto;
     display: inline-block;
+    text-align: center;
+}
+
+.imagem_entregador{
+    height: 85%;
+    width: 100%;
 }
 
 #contato_home{
-    background-color: aqua;
+    background-color: lightgrey;
     width: 50%;
     height: 100%;
     margin: 0 auto;
     display: inline-block;
+    justify-content: right;
+    text-align: center;
+}
 
+.imagem_suporte{
+    height: 85%;
+    width: 100%;
+}
+
+#texto_link{
+    font-size: 30pt;
+    color: darkgoldenrod;
+    text-decoration:underline;
 }
 
 /* PRINCIPAL */
+
+
 
 /* BANNER DOIS */
 
