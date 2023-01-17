@@ -1,9 +1,15 @@
 /* HEADER */
 
+.header{
+    background-color: black;
+    padding: 0%;
+    width: 100%;
+}
+
 .logo_menu{
     width: 500px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;;
     display: block;
 }
 
@@ -13,3 +19,35 @@
 }
 /* HEADER */
 
+/* BANNER UM */
+.margem_banner_um{
+    margin-top: 20px;
+}
+
+.tamanho_banner_um{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/* BANNER UM */
+
+
+
+
+
+
+
+/* BANNER DOIS */
+
+    .margem_banner_dois{
+        margin-top: 20px;
+    }
+
+    .tamanho_banner_dois{
+        width: 1322px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+/* BANNER DOIS */
