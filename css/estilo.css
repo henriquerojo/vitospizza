@@ -7,6 +7,14 @@ a {
    }
 /* FONTE */
 
+/* FUNDO SITE */
+.fundofixo{
+    background: url('../images/pizzaria.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+/* FUNDO SITE */
+
 /* BODY */
 body{
     background-color:rgb(163, 138, 92);
