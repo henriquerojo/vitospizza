@@ -35,21 +35,24 @@ a {
 /* HEADER */
 
 
-/* PRINCIPAL */
+/* INÍCIO DELIVERY E CONTATO */
 .alinhamento_delivery_e_contato{
-    width: 100%;
-    height: 500px;
-    background-color: yellow;
+    width: 80%;
+    height: 400px;
+    background-color: none;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
+
 }
 
 #delivery_home{
     background-color: lightgrey;
-    width: 50%;
-    height: 100%;
+    width: 40%;
+    height: 400px;
     margin: 0 auto;
     display: inline-block;
     text-align: center;
@@ -57,47 +60,48 @@ a {
 
 .imagens{
     height: 85%;
-    width: 70%;
+    width: 100%;
 }
 
 #contato_home{
     background-color: lightgrey;
-    width: 50%;
-    height: 100%;
+    width: 40%;
+    height: 400px;
     margin: 0 auto;
     display: inline-block;
     justify-content: right;
     text-align: center;
 }
 
-#texto_link{
+.texto_link{
     font-size: 30pt;
     color: darkgoldenrod;
     text-decoration:underline;
+    text-align: center;
+    width: 100%;
 }
 
-/* PRINCIPAL */
+#texto_embaixo{
+    display: block;
+    vertical-align: text-bottom;
+}
 
+/* FIM DELIVERY E CONTATO */
 
+/* INÍCIO PRODUTOS */
 
-/* BANNER DOIS */
-
-    .margem_banner_dois{
-        margin-top: 20px;
-    }
-
-    .tamanho_banner_dois{
-        width: 1322px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-/* BANNER DOIS */
-
+/* FIM PRODUTOS */
 
 /* FOOTER */
+
+    .fundo_footer{
+        background-color: rgb(51, 45, 33);;
+    }
+
     .margem_linha_footer{
         margin-top: 5px;
+        justify-content: center;
+
     }
 
     .margem_footer{
