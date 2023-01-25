@@ -7,6 +7,18 @@ a {
    }
 /* FONTE */
 
+/* USO GERAL */
+
+.texto_link{
+    font-size: 30pt;
+    color: darkgoldenrod;
+    text-decoration:underline;
+    text-align: center;
+    width: 100%;
+}
+
+/* USO GERAL */
+
 /* FUNDO SITE */
 .fundofixo{
     background: url('../images/pizzaria.jpg') no-repeat fixed;
@@ -59,7 +71,7 @@ a {
 }
 
 .imagens{
-    height: 85%;
+    height: 100%;
     width: 100%;
 }
 
@@ -73,23 +85,37 @@ a {
     text-align: center;
 }
 
-.texto_link{
-    font-size: 30pt;
-    color: darkgoldenrod;
-    text-decoration:underline;
-    text-align: center;
-    width: 100%;
-}
-
 #texto_embaixo{
     display: block;
-    vertical-align: text-bottom;
+    vertical-align: bottom;
 }
 
 /* FIM DELIVERY E CONTATO */
 
 /* INÍCIO PRODUTOS */
+.alinhamento_produtos{
+    width: 72%;
+    height: 400px;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
 
+#produtos_home{
+    background-color: lightgrey;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.imagem_produtos{
+    width: 100%;
+    height: 100%;
+}
 /* FIM PRODUTOS */
 
 /* FOOTER */
