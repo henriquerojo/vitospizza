@@ -15,26 +15,21 @@ a {
 }
 /* FUNDO SITE */
 
-/* BODY */
-body{
-    background-color:rgb(163, 138, 92);
-}
-/* BODY */
-
 /* HEADER */
 
 .header{
     background-color: rgb(51, 45, 33);
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     width: 100%;
     text-align: center;
-}
-
-.logo_menu{
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;;
-    display: block;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .itens_menu{
@@ -43,18 +38,6 @@ body{
 }
 /* HEADER */
 
-/* BANNER UM */
-.margem_banner_um{
-    margin-top: 20px;
-}
-
-.tamanho_banner_um{
-    width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-/* BANNER UM */
 
 /* PRINCIPAL */
 .alinhamento_delivery_e_contato{
@@ -64,8 +47,6 @@ body{
     margin-top: 20px;
     align-items: center;
     display: flex;
-    flex-direction:row;
-    flex-wrap:wrap;
     justify-content:center;
 }
 
@@ -136,6 +117,7 @@ body{
         text-align: center;
         font-weight: 100;
         font-size: 12pt;
+        color: white;
     }
 
 /* FOOTER */
