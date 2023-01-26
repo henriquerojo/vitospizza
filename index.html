@@ -27,29 +27,30 @@
     <!-- FIM HEADER -->
 
     <!-- INÍCIO CARROSSEL -->
-        <section>
-            <div tabindex="0" onclick="closeSidebar()">
-                <section id="carousel">
-                    <div class="slideshow-container">
-                        <div class="mySlides fade">
-                            <img id="car1" class="imgslide" src="images/banner.png">
-                        </div>
-                        
-                        <div class="mySlides fade">
-                            <img id="car2" class="imgslide" src="images/bannerdois.jpg">
-                        </div>
-                        
-                        <a class="prev" onclick="plusSlides(-1)">❮</a>
-                        <a class="next" onclick="plusSlides(1)">❯</a>   
-                    </div>
-                        
-                    <div class="dots">
-                        <span class="dot" onclick="currentSlide(1)"></span> 
-                        <span class="dot" onclick="currentSlide(2)"></span> 
-                    </div>
-                </section>
-        </section>
+        <div class="conteudo">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+            </div>
 
+            <div class="slide s1">
+                <img src="images/1.jpg" alt="pizza sendo assada no forno">
+            </div>
+
+            <div class="slide">
+                <img src="images/2.jpg" alt="pizza servida na mesa">
+            </div>
+
+            <div class="slide">
+                <img src="images/3.jpg" alt="pizzaiolo preparando massa de pizza">
+            </div>
+        </div>
+        <div class="navegacao">
+            <label class="barra" for="slide1"></label>
+            <label class="barra" for="slide2"></label>
+            <label class="barra" for="slide3"></label>
+        </div>
     <!-- FIM CARROSSEL -->
 
     <!-- INÍCIO DELIVERY E CONTATO -->
@@ -88,11 +89,19 @@
         </div>
     <!-- FIM PRODUTOS -->
 
-    <!-- INÍCIO MAPA DO SITE -->
+    <!-- INÍCIO BANNER -->
+    <div>
+        <div>
+            <img src="images/banner.png" alt="banner com fundo preto e com uma pizza no canto">
+        </div>
+    </div>
+    <!-- FIM BANNER -->
+
+    <!-- INÍCIO MAPA DO SITE E SOBRE A EMPRESA -->
         <div>
             <p>mapa do site</p>
         </div>
-    <!-- FIM MAPA DO SITE -->
+    <!-- FIM MAPA DO SITE E SOBRE A EMPRESA-->
 
     <!-- FOOTER -->
     <hr size="05" color="0,0,0" class="margem_linha_footer"> <!-- linha horizontal -->
